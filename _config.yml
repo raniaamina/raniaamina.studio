@@ -1,12 +1,12 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
 
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:title/
 
 defaults:
   -
@@ -17,42 +17,72 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
+  sort_by: stars
+  sort_by options:
+     - pushed
+     - stars
+  limit: 15
   exclude:
-    archived: false
-    forks: true
+    archived: true
+    forks: false
     projects:
-    # - repo-name
+     - kisah-baru
+     - repo-belajar 
+     - bulanbahasa2017
+     - w3schools-offline
+     - webdesa-beku
+     - desainkreatif
 
-# social_media:
+social_media:
   # behance: your_username
-  # dribbble: your_username
+  dribbble: raniaamina
   # facebook: your_username
   # hackerrank: your_username
-  # instagram: your_username
+  instagram: raniaamina.id
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: raniaamina
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
+  telegram: raniaamina
+  twitter: raniaamina_id
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  # website: https://raniaamina.id
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Tokusatsu
+    web_url: https://tokusatsu.fandom.com/wiki/Tokusatsu
+    image_url: /assets/img/tokusatsu.png
+    
+  - name: Gimpscape
+    web_url: https://gimpscape.org
+    image_url: /assets/img/gimpscape.png
 
-  - name: Web design
+  - name: Inkscape
+    web_url: https://inkscpae.org
+    image_url: /assets/img/inkscape.png
+    
+  - name: Gimp
+    web_url: https://gimp.org
+    image_url: /assets/img/gimp.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Krita
+    web_url: https://krita.org
+    image_url: /assets/img/krita.png
+    
+  - name: Synfig
+    web_url: https://synfig.org
+    image_url: /assets/img/synfig.png
+    
+  - name: UI Design
+    image_url: /assets/img/ui-design.png
+    
+  - name: Hexo
+    web_url: https://hexo.io
+    image_url: /assets/img/hexo.png
+    
+  - name: Bootstrap
+    web_url: https://bootstrapstudio.io
+    image_url: /assets/img/bss.png
